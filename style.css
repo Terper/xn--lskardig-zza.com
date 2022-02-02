@@ -1,0 +1,46 @@
+:root {
+    --dark: #323031ff;
+    --light: #f6f3f4ff;
+    --back: #f0a8b2ff;
+    --fore: #dc143cff;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: auto;
+    max-width: 600px;
+    background-color: var(--light);
+}
+.card {
+    background-color: var(--back);
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 1rem;
+    white-space:nowrap;
+}
+
+i {
+    color: var(--fore);
+    font-size: 3rem;
+}
